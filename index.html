@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Age Calculator App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="heading">
+        <h1>Welcome to Age Calculator</h1>
+    </div>
+    <div class="main-container">
+        <h1>Calculate your age</h1>
+        <div class="container">
+            <h3>Enter your birth date</h3>
+            <input type="date" name="date" id="inpt-date" pattern="\d{4}-\d{2}-\d{2}" min="1900-01-01" required>
+            <button id="btn" type="submit">check</button>
+        </div>
+        <div id="results">Your Age is: <br><span id="white"></span></div>
+    </div>
+
+
+</body>
+<script src="app.js"></script>
+
+</html>
